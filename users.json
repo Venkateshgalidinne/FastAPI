@@ -1,0 +1,26 @@
+[
+    {
+        "name": "naga kusuma komali",
+        "email": "kusuma@gmail.com",
+        "password": "12345678",
+        "role": "Recruiter"
+    },
+    {
+        "name": "Venkatesh Galidinne",
+        "email": "venkatesh@gmail.com",
+        "password": "2209",
+        "role": "Recruiter"
+    },
+    {
+        "name": "Revanth Bolinedi",
+        "email": "revanth@gmail.com",
+        "password": "12345678",
+        "role": "JobSeeker"
+    },
+    {
+        "name": "RaviTeja",
+        "email": "ravi@gmail.com",
+        "password": "12345678",
+        "role": "Recruiter"
+    }
+]
