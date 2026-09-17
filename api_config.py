@@ -1,0 +1,1 @@
+API_URL = "https://fastapi-jpk3.onrender.com"
