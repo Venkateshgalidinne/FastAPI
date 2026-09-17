@@ -1,0 +1,7 @@
+Venkatesh
+Vamsi
+Sumanth
+Ravi,98
+Teja,68,Maths
+venkatesh,23,Gen AI
+Prasanna ,20,Python full stack
