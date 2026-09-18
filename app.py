@@ -23,7 +23,7 @@ with col1:
 
 with col2:
     if st.button("Get Users"):
-        response = requests.get("https://fastapi-jpk3.onrender.com" + "/users")
+        response = requests.get("https://fastapi-jpk3.onrender.com" + "/get_all_users")
         
 
         if response.status_code == 200:

@@ -11,7 +11,7 @@ if st.button("confirm_update"):
         "name": name,
         "password": password
     }
-    res=requests.put(f"http://127.0.0.1:8000/update_user/{email}",json=update_data) 
+    res=requests.put(f"https://fastapi-jpk3.onrender.com/update_user/{email}",json=update_data) 
     if res.status_code==200:
         res_json=res.json()
         st.success(res_json)  
