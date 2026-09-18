@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+from api_config import API_URL
 
 API_URL = "https://fastapi-jpk3.onrender.com"
 

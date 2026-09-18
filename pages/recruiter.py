@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+from api_config import API_URL
 
 API_URL = "http://127.0.0.1:8000"
 

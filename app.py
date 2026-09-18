@@ -23,13 +23,12 @@ with col1:
 
 with col2:
     if st.button("Get Users"):
-        res = requests.get(
-            "http://127.0.0.1:8000/get_all_users"
-        )
+        response = requests.get("https://fastapi-jpk3.onrender.com" + "/users")
+        
 
-        if res.status_code == 200:
-            res_json = res.json()
-            st.dataframe(res_json)
+        if response.status_code == 200:
+            response_json = response.json()
+            st.dataframe(response_json)
 
 with col3:
     if st.button("Delete User"):
